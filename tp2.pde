@@ -33,8 +33,8 @@ void draw() {
    textFont(fuente);
    push();
    textSize(32);
-   textAlign(CENTER, CENTER); // Alineación del texto al centro
-   fill(0); // Color del texto (blanco)
+   textAlign(CENTER, CENTER);
+   fill(0);
    text("¡Que se haga la magia!", width/2, 400);
    pop();
    
